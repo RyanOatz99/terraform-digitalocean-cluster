@@ -1,0 +1,46 @@
+output_dir: .
+
+clear_top_level: true
+logical_grouping: true
+
+collections:
+  - common
+
+loader_paths:
+  - docs
+
+protected:
+  - droplets.tf
+  - ensemble.tf
+  - main.tf
+  - outputs.tf
+  - variables.tf
+
+render_context:
+  project:
+    project_name: terraform-digitalocean-cluster
+    version: 1.4.5
+
+    verbose_name: Terraform DigitalOcean cluster
+    description: Create a populated and tagged DigitalOcean project.
+
+    repository: https://github.com/JoelLefkowitz/env-git
+    codacy_id: 07d812d92c8940bf9e4b0e53b968e848
+
+    inserts:
+      - usage.md
+
+  author:
+    author: Joel Lefkowitz
+    author_email: joellefkowitz@hotmail.com
+    author_github_handle: joellefkowitz
+
+  portfolio:
+    is_portfolio: true
+    status_level: 5
+
+    languages:
+      - HCL
+
+    frameworks:
+      - Terraform
