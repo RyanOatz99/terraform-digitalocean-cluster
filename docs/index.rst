@@ -1,7 +1,7 @@
-Terraform digitalocean cluster
+Terraform DigitalOcean cluster
 ============
 
-Welcome to Terraform digitalocean cluster's documentation!
+Welcome to Terraform DigitalOcean cluster's documentation!
 
 .. raw:: html
    :file: README.html
